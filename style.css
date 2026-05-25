@@ -1,0 +1,113 @@
+:root {
+    --bg: #e6e6e6;
+    --text-primary: #1f2f50;
+    --table-border: #000000;
+    --font-base: Calibri, Arial, sans-serif;
+    --font-base-size: 16px;
+
+header {
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    margin-bottom: 18px;
+    font-family: sans-serif;
+}
+
+}
+body {
+    background-color: var(--bg);
+    color: var(--text-primary);
+    font-family: var(--font-base);
+    font-size: var(--font-size-base);
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table, th, td {
+    border: 1px solid var(--table-border); 
+    border-collapse: collapse;
+}
+
+h2 {
+    position: relative;
+    margin-top: 15px;
+    padding: 0.3rem 0.5rem;
+    border-radius: 7px;
+    background: #0a1325;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h2::before {
+    content:"";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    width: 0;
+    height: 0;
+    transform: translateY(-50%);
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    border-left: 11px solid rgb(185, 24, 24);
+}
+
+h3 {
+    color: rgb(67, 118, 167)
+}
+
+dt {
+    color: black;
+    font-weight: bold;
+}
+
+dd {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+table {
+    width: 100%;
+    color: black;
+}
+
+thead tr {
+    background-color: #6e6e6e;
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+tfoot tr {
+    background-color: #6e6e6e;
+    font-weight: bold;
+    text-align: right;
+}
+
+.summary {
+    text-align: left;
+    font-weight: bold;
+}
+
+.summary .red {
+    color: red;
+    text-align: right;
+    margin-right: 7px;
+}
+
+tr {
+    text-align: center;
+}
+
+footer {
+    margin-top: 40px;
+    font-weight: bold;
+}
